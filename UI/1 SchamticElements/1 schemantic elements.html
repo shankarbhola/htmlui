@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Schemantic web page
+        </title>
+        <style>
+            section{
+                display: grid;
+                grid-template-areas: "a"
+                                     "b"
+                                     "c";
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 8fr 1fr;
+                height: 100vh;
+            }
+            header{
+                grid-area: "a";
+                background-color: #dc143c;
+                color: white;
+                text-align: center;
+            }
+            main{
+                grid-area: "b";
+                text-align: center;
+                margin-top: 200px;
+            }
+            footer{
+                grid-area: "c";
+                background-color: #dc143c;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <header>
+                Bhola Shankar
+            </header>
+            <main>
+                Main content soon
+            </main>
+            <footer>
+                copyright@shankarbhola.cf
+            </footer>
+        </section>
+    </body>
+</html>
